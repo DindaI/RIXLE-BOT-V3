@@ -1,7 +1,7 @@
 const fs = require("fs")
 userbot = {
 Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
- owner: [ "6281261324817", "62895-6229-34562" ],
+ owner: [ "62858770642900", "62858-7706-42900" ],
   MONGO_URI: "mongodb+srv://zanDb:veth0581@cluster0.eyx0e.mongodb.net/<mydb>?retryWrites=true&w=majority",
    mess: {
    wait: "tunggu sedang di proses...",
@@ -28,7 +28,7 @@ Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
    readBaileys: "berhasil masuk ke dalam baileys",
    connecting: "Menghubungkan"
    },
-   prefix: ["/"],
+   prefix: ["#"],
    gexp: 50,
    limit: 100,
    eror: "Sepertinya Eror",
